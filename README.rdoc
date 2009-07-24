@@ -5,7 +5,7 @@ Mongo-related Rails generator scripts.
 
 == Install
 
-  gem install mongo-generators
+  gem install stympy-mongo-generators
 
 
 == Usage
