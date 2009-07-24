@@ -1,0 +1,16 @@
+Description:
+    Stubs out a new model. Pass the model name, either CamelCased or
+    under_scored, and an optional list of attribute pairs as arguments.
+
+    Attribute pairs are key_name:mongo_type arguments specifying the
+    model's attributes. Timestamps are added by default.
+
+Examples:
+    `./script/generate model account`
+
+        creates an Account model:
+            Model:      app/models/account.rb
+
+    `./script/generate model post title:string body:string published:boolean`
+
+        creates a Post model with a string title, string body, and published flag.

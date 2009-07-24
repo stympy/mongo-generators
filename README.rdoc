@@ -1,0 +1,24 @@
+= Mongo Generators
+
+Mongo-related Rails generator scripts.
+
+
+== Install
+
+  gem install mongo-generators
+
+
+== Usage
+
+Once you install the gem, the generators will be available to all Rails
+applications on your system. If you run script/generate without any
+additional arguments you should see the available generators listed.
+
+To run the generator, go to your rails project directory and call it
+using the script/generate or script/destroy command.
+
+  script/generate mongo_model Post name:string body:string published:boolean
+
+== Thanks
+
+Thanks to Ryan Bate's nifty-generators for being the scaffold of this project. :)
